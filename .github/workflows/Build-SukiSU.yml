@@ -25,7 +25,7 @@ on:
       KERNEL_NAME:
         description: "修改内核名称"
         required: true
-        default: '-android15-zzkkkz-susfs'
+        default: '-build-by-misaka-no.114514'
       kernelsu_variant:
         description: "选择 KSU"
         required: true
@@ -54,7 +54,7 @@ on:
         options:
           - enable
           - disable
-        default: enable
+        default: disable
 jobs:
   build:
     runs-on: ubuntu-latest
